@@ -1,0 +1,209 @@
+body{
+	margin: 0px;
+	background-color: #eeeeef;
+}
+
+header{
+	background-image: url(../img/1.jpg);
+	height: 80%;
+}
+
+.header{
+	text-align: center;
+	padding: 10% 0px;
+}
+
+.header h1{
+	font-size: 400%;
+	color: #14ce2d;
+	padding-bottom: 5%;
+}
+
+li a{
+	color: #13cec1;
+	font-size: 300%;
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+li:hover{
+	border-bottom: 5px solid #14ce2d;
+	padding-bottom: 0px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.info1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.info1 img{
+	height: 70%;
+	width: 70%;
+}
+
+.info2{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.info2 img{
+	height: 75%;
+	width: 75%;
+}
+
+.info2 button{
+	width: 30%;
+	height: 15%;
+	border-radius: 30%;
+	margin-right: 45%;
+	background-color: #1dc63f;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+
+.info1 button{
+	width: 30%;
+	height: 15%;
+	border-radius: 30%;
+	margin-right: 45%;
+	background-color: #1dc63f;
+}
+
+.tren{
+	text-align: center;
+	margin-top: 3%;
+	font-size: 150%;
+}
+
+.tren1{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 150%;
+}
+
+@media screen and (max-device-width: 480px) {
+
+.header{
+	text-align: center;
+	padding: 10% 0px;
+}
+
+.header h1{
+	font-size: 400%;
+	color: #14ce2d;
+	padding-bottom: 5%;
+}
+
+li a{
+	color: #13cec1;
+	font-size: 300%;
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	padding-bottom: 3px;
+}
+
+li:hover{
+	border-bottom: 3px solid #14ce2d;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.info1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.info1 img{
+	height: 60%;
+	width: 80%;
+}
+
+.info2{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.info2 img{
+	height: 40%;
+	width: 80%;
+}
+
+.info2 button{
+	width: 60%;
+	height: 15%;
+	border-radius: 30%;
+	margin-right: 45%;
+	background-color: #1dc63f;
+}
+
+.info1 button a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.info2 button a{
+	text-decoration: none;
+	color: black;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+
+
+.info1 button{
+	width: 60%;
+	height: 15%;
+	border-radius: 30%;
+	margin-right: 45%;
+	background-color: #1dc63f;
+}
+
+.tren{
+	text-align: center;
+	margin-top: 3%;
+	font-size: 130%;
+}
+
+.tren1{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 130%;
+}
+
+h2{
+	font-size: 100%;
+}
+
+
+}
